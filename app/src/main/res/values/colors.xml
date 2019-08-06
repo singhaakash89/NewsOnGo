@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#7a9dcc</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF9B99</color>
+    <color name="hintColor">#63bece</color>
+    <color name="light_bg">#c3dddc</color>
+
+    <!--new color codes-->
+    <color name="primary_new">#abceff</color>
+    <color name="primary_dark_new">#7a9dcc</color>
+    <color name="accent_new">#deffff</color>
+
+    <color name="available_color">#6fdc6f</color>
+    <color name="not_available_color">#ff4c4c</color>
+
+    <color name="button_pressed">#ff8a00</color>
+    <color name="button_focused">#ff8a00</color>
+    <color name="button_default">#1c76bb</color>
+
+
+    <color name="border_grey">#6d7382</color>
+    <color name="news_search_blue">#008a99</color>
+    <color name="background_spinner">#30bcbcbc</color>
+    <color name="fb_login_button">#3b5c95</color>
+    <color name="google_login_button">#fefefe</color>
+    <color name="google_login_text_color">#535353</color>
+    <color name="demo_pop_up_color">#5000b3c5</color>
+    <color name="demo_pop_up_image_color">#4bb9d3</color>
+    <color name="dark_blue_fintapp">#006874</color>
+    <color name="rate_us_white">#30ffffff</color>
+    <color name="rate_us_golden">#95ffca30</color>
+    <color name="start_screen_blue">#00b3c5</color>
+    <color name="saffron">#ffc571</color>
+
+
+    <color name="tree_green">#47b51f</color>
+    <color name="aqua">#6bbaa7</color>
+    <color name="coral">#F53240</color>
+    <color name="golden">#F9bE02</color>
+    <color name="aquaMarine">#02C8A7</color>
+    <color name="jewel">#5f0F4E</color>
+    <color name="sand">#EAB126</color>
+    <color name="ocean">#1fb58f</color>
+    <color name="cocktail">#F24C4E</color>
+    <color name="coral_new">#e14658</color>
+    <color name="red_new">#b81d18</color>
+    <color name="sofie_black">#202020</color>
+    <color name="sofie_red">#ca171b</color>
+    <color name="brown">#48372f</color>
+    <color name="bright_yellow">#fee202</color>
+    <color name="golden_yellow_1">#ee9c21</color>
+    <color name="golden_yellow_2">#ea7d24</color>
+    <color name="hot_red">#bd0102</color>
+    <color name="navy_blue_dark">#152737</color>
+    <color name="navy_blue_light">#1d2f3e</color>
+    <color name="primary_1">#01ABAA</color>
+    <color name="primary_2">#168a8f</color>
+    <color name="hike">#0b99bc</color>
+    <color name="dull_orange">#FEA680</color>
+    <color name="royal_blue">#0B99BC</color>
+    <color name="dull_green_1">#4ca8a1</color>
+    <color name="dull_green_2">#7ec2aa</color>
+    <color name="dull_red_1">#ab3334</color>
+
+
+    <color name="text_color_dark">#000</color>
+    <color name="text_color_light">#fff</color>
+    <color name="hint_color">#BDBDBD</color>
+    <color name="bgcolor">#FFEB3B</color>
+    <color name="buttonColor">#00BCD4</color>
+    <color name="yellow_color">#dacc2e</color>
+    <color name="green_color">#26A69A</color>
+    <color name="blue_color">#26c6da</color>
+    <color name="low_green_color">#80cbc4</color>
+    <color name="low_orange_color">#ffcdd2</color>
+    <color name="low_grey_color">#cfd8dc</color>
+    <color name="low_grey_color_new">#F0F0F0</color>
+    <color name="high_orange_color">#F44336</color>
+    <color name="light_black">#212121</color>
+
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="black_light_1">#202020</color>
+    <color name="black_light_2">#909090</color>
+    <color name="chat_user_reply_background_color">#c8f0ff</color>
+    <color name="chat_company_reply_background_color">#F5F5F5</color>
+    <color name="gray">@android:color/darker_gray</color>
+    <color name="gray_transparent">#aaaaaa</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="cyan">@android:color/holo_blue_light</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="neon_yellow">#FFFF00</color>
+
+
+    <!--general color for Tabbed Dialog-->
+    <color name="blue">#1976D2</color>
+    <color name="text_on_primary">#ff004446</color>
+    <color name="subtitle_on_primary">#de004446</color>
+    <color name="item_text_primary_head_color">@color/white</color>
+    <color name="item_text_primary_color">#ff275B64</color>
+    <color name="tab_background">@color/blue</color>
+    <color name="tab_selected_strip">@android:color/white</color>
+    <color name="unselected_tab_on_primary">#b3004446</color>
+    <color name="flat_button_text">#ff008094</color>
+
+    <!-- fintapp color scheme -->
+    <color name="fin_new_to_text">#006984</color>
+    <color name="fin_new_to_text_border">#00b2c6</color>
+    <color name="fin_fintapper_text">#00b2c6</color>
+    <color name="fin_register_text">#31b2c6</color>
+    <color name="fin_main_light_border">#31b2c6</color>
+    <color name="fin_change_pass_bg">#ffc571</color>
+    <color name="fin_header_master_color">#006973</color>
+    <color name="fin_change_pass_text">#00b2c6</color>
+    <color name="fin_contact_text_bg">#c3dddc</color>
+    <color name="fin_contact_text_bg_new">#D2D7D3</color>
+    <color name="fin_popup_header_bg">#00b2c6</color>
+    <color name="fin_popup_text">#006984</color>
+    <color name="fin_popup_bg">#F2F1EF</color>
+    <color name="fin_login_footer_text">#319ea5</color>
+    <color name="fin_dropdown_bg">#c3dddc</color>
+    <color name="sector_ring_color">#c3dddc</color>
+    <color name="fin_sectors_text">#63bece</color>
+    <color name="fin_sectors_ranking_digit_text">#00799c</color>
+    <color name="blurred">#AA000000</color>
+
+    <color name="positive">#1AC1A1</color>
+    <color name="negative">#FF9B99</color>
+    <color name="neutral">#c3dddc</color>
+
+    //Latest pie chart related colors
+    <!--<color name="pie_1">#006973</color>-->
+    <color name="pie_1">#567287</color>
+    <color name="pie_2">#188E73</color>
+    <!--<color name="pie_3">#9CAE8C</color>-->
+    <color name="pie_3">#C0BB98</color>
+    <color name="pie_4">#F7827B</color>
+    <color name="pie_5">#FFC752</color>
+    <color name="pie_6">#FFDFC6</color>
+
+
+    //risk bar color
+    <color name="risk_3">#FF9B99</color>
+    <color name="risk_2">#FFCE8D</color>
+    <color name="risk_1">#38E5C4</color>
+
+    <!--new color by sharan-->
+    <color name="cararra">#F2F1EF</color>
+    <color name="precelain">#ECF0F1</color>
+    <color name="gallery">#EEEEEE</color>
+    <color name="white_smoke">#ECECEC</color>
+    <color name="silver">#D2D7D3</color>
+    <color name="silver_v1">#E0E3E0</color>
+    <color name="silver_v2">#C9C9C9</color>
+    <color name="harbor">#757D75</color>
+
+    <color name="pat_color">#006973</color>
+    <color name="sg_color">#ffc571</color>
+    <color name="opm_color">#ff9b99</color>
+    <color name="roce_color">#e91818</color>
+    <color name="debt_to_assets_color">#6bb18c</color>
+    <color name="current_ratio_color">#eaff99</color>
+
+    <color name="stock_1_color">#006973</color>
+    <color name="stock_2_color">#ffc571</color>
+    <color name="stock_3_color">#ff9b99</color>
+    <color name="stock_4_color">#00b2c6</color>
+
+    <color name="bottom_ribbon_color">#81CCC6</color>
+    <color name="bottom_ribbon_color_1_v1">#08686d</color>
+    <color name="bottom_ribbon_color_2_v1">#0b8389</color>
+
+</resources>

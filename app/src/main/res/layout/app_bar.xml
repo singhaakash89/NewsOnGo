@@ -1,0 +1,57 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:contentInsetEnd="0dp"
+    android:contentInsetLeft="0dp"
+    android:contentInsetRight="0dp"
+    android:contentInsetStart="0dp"
+    android:orientation="vertical"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp"
+    app:theme="@style/MyCustomToolbarTheme">
+
+    <ImageView
+        android:id="@+id/closeIV"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="center"
+        android:src="@drawable/close_v1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp">
+
+
+        <TextView
+            android:id="@+id/titleAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:maxLength="30"
+            android:text="Title"
+            android:textColor="@color/text_color_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/titleAppBarDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:maxLength="30"
+            android:layout_marginTop="2dp"
+            android:text="Desc"
+            android:textColor="@color/text_color_light"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

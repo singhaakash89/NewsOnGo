@@ -1,0 +1,17 @@
+<tabs>
+    <tab
+        id="@+id/tab_favorites"
+        icon="@drawable/ic_fav"
+        title="Favorites"
+        barColorWhenSelected="@color/black" />
+    <tab
+        id="@+id/tab_feeds"
+        icon="@drawable/ic_feed"
+        title="News"
+        barColorWhenSelected="@color/black" />
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/ic_profile_v1"
+        title="Profile"
+        barColorWhenSelected="@color/black" />
+</tabs>

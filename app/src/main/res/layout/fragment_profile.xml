@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@color/primary_dark_new">
+
+        <TextView
+            android:id="@+id/titleAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:maxLength="30"
+            android:text="Title"
+            android:textColor="@color/text_color_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/titleAppBarDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center_horizontal"
+            android:maxLength="30"
+            android:text="Desc"
+            android:textColor="@color/text_color_light"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/linearlayout"
+        android:progressDrawable="@drawable/progress_bar_state"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/progressBar"
+        android:padding="8dp"
+        android:scrollbars="none">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="5dp" />
+
+    </ScrollView>
+
+</RelativeLayout>
