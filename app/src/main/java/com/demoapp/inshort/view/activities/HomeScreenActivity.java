@@ -22,6 +22,8 @@ import com.demoapp.inshort.view.fragments.FeedsFragment;
 import com.demoapp.inshort.view.fragments.ProfileFragment;
 import com.demoapp.inshort.view.toast.ToastManager;
 import com.google.gson.Gson;
+import com.gssirohi.materialforms.MaterialForm;
+import com.gssirohi.materialforms.MaterialFormBuilder;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.TextHttpResponseHandler;
 import com.roughike.bottombar.BottomBar;
